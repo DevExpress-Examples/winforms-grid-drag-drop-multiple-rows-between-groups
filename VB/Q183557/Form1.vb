@@ -22,7 +22,7 @@ Namespace Q183557
 
         Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
             ' TODO: This line of code loads data into the 'carsDBDataSet.Cars' table. You can move, or remove it, as needed.
-            Me.carsTableAdapter.Fill(Me.carsDBDataSet_Renamed.Cars)
+            Me.carsTableAdapter.Fill(Me.carsDBDataSet.Cars)
 
         End Sub
 

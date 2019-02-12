@@ -26,7 +26,7 @@
             Me.components = New System.ComponentModel.Container()
             Me.gridControl1 = New DevExpress.XtraGrid.GridControl()
             Me.carsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-            Me.carsDBDataSet_Renamed = New Q183557.CarsDBDataSet()
+            Me.carsDBDataSet = New Q183557.CarsDBDataSet()
             Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
             Me.colID = New DevExpress.XtraGrid.Columns.GridColumn()
             Me.colTrademark = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -38,7 +38,7 @@
             Me.timer1 = New System.Windows.Forms.Timer(Me.components)
             DirectCast(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
             DirectCast(Me.carsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.carsDBDataSet_Renamed, System.ComponentModel.ISupportInitialize).BeginInit()
+            DirectCast(Me.carsDBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
             DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
@@ -58,12 +58,12 @@
             ' carsBindingSource
             ' 
             Me.carsBindingSource.DataMember = "Cars"
-            Me.carsBindingSource.DataSource = Me.carsDBDataSet_Renamed
+            Me.carsBindingSource.DataSource = Me.carsDBDataSet
             ' 
             ' carsDBDataSet
             ' 
-            Me.carsDBDataSet_Renamed.DataSetName = "CarsDBDataSet"
-            Me.carsDBDataSet_Renamed.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+            Me.carsDBDataSet.DataSetName = "CarsDBDataSet"
+            Me.carsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
             ' 
             ' gridView1
             ' 
@@ -139,7 +139,7 @@
             Me.Text = "Form1"
             DirectCast(Me.gridControl1, System.ComponentModel.ISupportInitialize).EndInit()
             DirectCast(Me.carsBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.carsDBDataSet_Renamed, System.ComponentModel.ISupportInitialize).EndInit()
+            DirectCast(Me.carsDBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
             DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
 
@@ -149,8 +149,7 @@
 
         Private WithEvents gridControl1 As DevExpress.XtraGrid.GridControl
         Private WithEvents gridView1 As DevExpress.XtraGrid.Views.Grid.GridView
-
-        Private carsDBDataSet_Renamed As CarsDBDataSet
+        Private carsDBDataSet As CarsDBDataSet
         Private carsBindingSource As System.Windows.Forms.BindingSource
         Private carsTableAdapter As Q183557.CarsDBDataSetTableAdapters.CarsTableAdapter
         Private colID As DevExpress.XtraGrid.Columns.GridColumn

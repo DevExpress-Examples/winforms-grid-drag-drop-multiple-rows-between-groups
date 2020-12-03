@@ -28,7 +28,7 @@ Namespace Q183557
 			Me.components = New System.ComponentModel.Container()
 			Me.gridControl1 = New DevExpress.XtraGrid.GridControl()
 			Me.carsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.carsDBDataSet = New Q183557.CarsDBDataSet()
+			Me.carsDBDataSet = New CarsDBDataSet()
 			Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
 			Me.colID = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colTrademark = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -36,7 +36,7 @@ Namespace Q183557
 			Me.colHP = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colLiter = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colCyl = New DevExpress.XtraGrid.Columns.GridColumn()
-			Me.carsTableAdapter = New Q183557.CarsDBDataSetTableAdapters.CarsTableAdapter()
+			Me.carsTableAdapter = New CarsDBDataSetTableAdapters.CarsTableAdapter()
 			Me.timer1 = New System.Windows.Forms.Timer(Me.components)
 			CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.carsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -159,7 +159,7 @@ Namespace Q183557
 		Private WithEvents gridView1 As DevExpress.XtraGrid.Views.Grid.GridView
 		Private carsDBDataSet As CarsDBDataSet
 		Private carsBindingSource As System.Windows.Forms.BindingSource
-		Private carsTableAdapter As Q183557.CarsDBDataSetTableAdapters.CarsTableAdapter
+		Private carsTableAdapter As CarsDBDataSetTableAdapters.CarsTableAdapter
 		Private colID As DevExpress.XtraGrid.Columns.GridColumn
 		Private colTrademark As DevExpress.XtraGrid.Columns.GridColumn
 		Private colModel As DevExpress.XtraGrid.Columns.GridColumn

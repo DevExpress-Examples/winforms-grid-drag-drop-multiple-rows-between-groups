@@ -2,7 +2,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/Q183557/Form1.cs) (VB: [Form1.vb](./VB/Q183557/Form1.vb))
+* [Main.cs](./CS/Q183557/Main.cs) (VB: [Main.vb](./VB/Q183557/Main.vb))
 <!-- default file list end -->
 # How to drag and drop multiple rows between groups
 

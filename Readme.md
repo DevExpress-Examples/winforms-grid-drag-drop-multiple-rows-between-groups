@@ -4,12 +4,20 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-<!-- default file list -->
-*Files to look at*:
+# WinForms Data Grid - Move selected rows between groups using drag and drop
+
+This example demonstrates how to use [Drag Drop Behavior](https://documentation.devexpress.com/WindowsForms/118656/Common-Features/Behaviors/Drag-And-Drop-Behavior).
+
+You should also set the [GridView.OptionsSelection.MultiSelect](https://documentation.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnViewOptionsSelection.MultiSelect.property) property to **true** to enable multiple row selection.
+
+![WinForms Data Grid - Move selected rows between groups using drag and drop](https://raw.githubusercontent.com/DevExpress-Examples/how-to-drag-and-drop-multiple-rows-between-groups-e461/18.1.3%2B/media/winforms-grid-move-rows-between-groups.gif)
+
+
+## Files to Review
 
 * [Main.cs](./CS/Q183557/Main.cs) (VB: [Main.vb](./VB/Q183557/Main.vb))
-<!-- default file list end -->
-# How to drag and drop multiple rows between groups
 
 
-This example demonstrates how to implement a capability to drag data rows between groups within **GridControl** by using [Drag Drop Behavior](https://documentation.devexpress.com/WindowsForms/118656/Common-Features/Behaviors/Drag-And-Drop-Behavior). Please note that you need to set the [GridView.OptionsSelection.MultiSelect](https://documentation.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnViewOptionsSelection.MultiSelect.property) property to true to enable multi selection.
+## Documentation
+
+* [Behaviors - Overview](https://docs.devexpress.com/WindowsForms/117235/common-features/behaviors)

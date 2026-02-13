@@ -23,7 +23,7 @@ You should also set the [GridView.OptionsSelection.MultiSelect](https://document
 
 * [Behaviors - Overview](https://docs.devexpress.com/WindowsForms/117235/common-features/behaviors)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-drag-drop-multiple-rows-between-groups&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-drag-drop-multiple-rows-between-groups&~~~was_helpful=no)
 

@@ -11,7 +11,7 @@ This example demonstrates how to use [Drag Drop Behavior](https://documentation.
 
 You should also set the [GridView.OptionsSelection.MultiSelect](https://documentation.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnViewOptionsSelection.MultiSelect.property) property to **true** to enable multiple row selection.
 
-![WinForms Data Grid - Move selected rows between groups using drag and drop](https://raw.githubusercontent.com/DevExpress-Examples/how-to-drag-and-drop-multiple-rows-between-groups-e461/18.1.3%2B/media/winforms-grid-move-rows-between-groups.gif)
+![WinForms Data Grid - Move selected rows between groups using drag and drop](media/winforms-grid-move-rows-between-groups.gif)
 
 
 ## Files to Review
@@ -29,3 +29,4 @@ You should also set the [GridView.OptionsSelection.MultiSelect](https://document
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
